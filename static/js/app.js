@@ -36,8 +36,4 @@ filterTable.on("click", function(){
         else {
             tbody.append("tr").append("td").text("No Results");
         }
-    })
-    reset_table.on("click", () => {
-        tbody.html("");
-        getData(tableData)
-      });
+    });
